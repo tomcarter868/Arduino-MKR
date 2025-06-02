@@ -5,8 +5,8 @@
 int buttonPin = 13;                   // Trigger button
 GY521 sensor(0x68);                   // Sensor object
 float x = 0, y = 0, z = 0;            // Accel readings
-const char* MY_SSID = "Police Surveillance Vehicle AB15";       // Your WiFi SSID
-const char* MY_PWD = "abcdefgh";        // Your wiFi password
+const char* MY_SSID = "YourWifiSSID";       // Your WiFi SSID
+const char* MY_PWD = "YourPassword";        // Your wiFi password
 
 const int SSLPORT = 443;              // The port for secure connections
 const char WEBSITE[] = "script.google.com"; // Server address to connect to
